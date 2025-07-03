@@ -2,12 +2,14 @@ import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
+import pack from './helpers/createSinglePack';
 
 function App() {
   
   const [packData, setPackData] = useState([]);
-
+  const {singlePack, secondPack} = pack;
+  console.log(singlePack);
+  console.log(secondPack);
   useEffect(() => {
 
    
