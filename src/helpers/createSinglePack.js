@@ -65,8 +65,43 @@ function createPreReleaseDraft() {
 function processPackData() {
     const preReleaseDraft = createPreReleaseDraft();
     const formattedPackData = {
-        Command: [],
-        Cunning: [],
+        // Aspect.length === 0 is neutral
+        Neutral: {
+            leaders: [],
+            bases: [],
+            units: [],
+            events: [],
+            upgrades: [],
+        },
+        Aggression: {
+            leaders: [],
+            bases: [],
+            units: [],
+            events: [],
+            upgrades: [],
+        },
+        Command: {
+            leaders: [],
+            bases: [],
+            units: [],
+            events: [],
+            upgrades: [],
+        },
+        Cunning: {
+            leaders: [],
+            bases: [],
+            units: [],
+            events: [],
+            upgrades: [],
+        },
+        Vigilance: {
+            leaders: [],
+            bases: [],
+            units: [],
+            events: [],
+            upgrades: [],
+        },
+
     }
 }
 
