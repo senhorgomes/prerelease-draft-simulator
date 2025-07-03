@@ -18,14 +18,16 @@ function App() {
     return <div>Loading...</div>
   }
 
+
   return (
     <>
-      {packData[packIndex].map((pack, index)=> {
-        console.log(pack);
+      {packData[packIndex].map((singleCard, index)=> {
+        console.log(singleCard.Name);
         return (
-          <img src={pack.FrontArt} alt={pack.Name} width={200} />
+          <img src={singleCard.FrontArt} alt={singleCard.Name} width={200} />
         )
       })}
+      <button onClick={() => setPackIndex(packIndex + 1)} disabled={packIndex === packData.length - 1} >Next Pack</button>
     </>
   )
 }

@@ -13,14 +13,14 @@ import baseCards from '../data/baseData.json'
 // 60 Uncommon 0-59
 // 100 Common create numbers between 0-99
 // 8 Bases 0-7 
-// Leader 0-17
+// Leader 0-17 18 cards
 // Legendary is only 1 in eight packs 12.5%
 // Make eight packs, choose 6. One of them is a legendary
 // Math.floor(Math.random() * max
 // Create initial array of numbers;
 function createSinglePack(isLegendary = false) {
-    const rangeOfCommons = Array.from({ length: 100 }, (_, i) => i + 1);
-    const rangeOfUncommons = Array.from({ length: 60 }, (_, i) => i + 1);
+    const rangeOfCommons = Array.from({ length: 100 }, (_, i) => i);
+    const rangeOfUncommons = Array.from({ length: 60 }, (_, i) => i);
 
     const randomLeaderNumber = Math.floor(Math.random() * 16);
     const randomBaseNumber = Math.floor(Math.random() * 8);
@@ -60,6 +60,14 @@ function createPreReleaseDraft() {
     .map(({ value }) => value)
     .slice(0, 6)
 
+}
+
+function processPackData() {
+    const preReleaseDraft = createPreReleaseDraft();
+    const formattedPackData = {
+        Command: [],
+        Cunning: [],
+    }
 }
 
 export default createPreReleaseDraft;
