@@ -53,7 +53,7 @@ function createEightPacks() {
     return packs;
 }
 
-function createPreReleaseDraft() {
+export function createPreReleaseDraft() {
     const packs = createEightPacks();
     return packs.map(value => ({ value, sort: Math.random() }))
     .sort((a, b) => a.sort - b.sort)
@@ -62,47 +62,62 @@ function createPreReleaseDraft() {
 
 }
 
-function processPackData() {
-    const preReleaseDraft = createPreReleaseDraft();
+export function processPackData(packData) {
+    const preReleaseDraft = packData;
+    const aspectKeys = ["Aggression", "Command", "Cunning", "Vigilance"];
+    // const cardTypes = ["Leader", "Base", "Unit", "Event", "Upgrade"];
     const formattedPackData = {
         // Aspect.length === 0 is neutral
         Neutral: {
-            leaders: [],
-            bases: [],
-            units: [],
-            events: [],
-            upgrades: [],
+            Leader: [],
+            Base: [],
+            Unit: [],
+            Event: [],
+            Upgrade: [],
         },
         Aggression: {
-            leaders: [],
-            bases: [],
-            units: [],
-            events: [],
-            upgrades: [],
+            Leader: [],
+            Base: [],
+            Unit: [],
+            Event: [],
+            Upgrade: [],
         },
         Command: {
-            leaders: [],
-            bases: [],
-            units: [],
-            events: [],
-            upgrades: [],
+            Leader: [],
+            Base: [],
+            Unit: [],
+            Event: [],
+            Upgrade: [],
         },
         Cunning: {
-            leaders: [],
-            bases: [],
-            units: [],
-            events: [],
-            upgrades: [],
+            Leader: [],
+            Base: [],
+            Unit: [],
+            Event: [],
+            Upgrade: [],
         },
         Vigilance: {
-            leaders: [],
-            bases: [],
-            units: [],
-            events: [],
-            upgrades: [],
+            Leader: [],
+            Base: [],
+            Unit: [],
+            Event: [],
+            Upgrade: [],
         },
-
     }
+    preReleaseDraft.forEach(pack => {
+        pack.forEach(singleCard => {
+            // Anakin is a neutral leader.
+            // check every single card to check their aspect
+            if(singleCard.Aspects.length === 0 || (singleCard.Aspects.length === 1 && singleCard.Type === "Leader")) {
+                formattedPackData.Neutral[singleCard.Type].push(singleCard);
+            } else {
+                aspectKeys.forEach(aspect => {
+                    if(singleCard.Aspects.includes(aspect)) {
+                        formattedPackData[aspect][singleCard.Type].push(singleCard);
+                    }
+                })
+            }
+        })
+    })
+    return formattedPackData;
 }
-
-export default createPreReleaseDraft;
