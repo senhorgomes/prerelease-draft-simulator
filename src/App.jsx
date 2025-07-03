@@ -2,12 +2,7 @@ import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import completeCardData from './data/data.json'
-import commonCards from './data/commonData.json'
-import uncommonCards from './data/uncommonData.json'
-import legendaryCards from './data/legendaryData.json'
-import rareCards from './data/rareData.json'
-import leaderCards from './data/leaderData.json'
+
 
 function App() {
   
@@ -26,8 +21,19 @@ function App() {
   // Leader 0-17
   // Legendary is only 1 in eight packs 12.5%
   // Make eight packs, choose 6. One of them is a legendary
-
-
+  // Math.floor(Math.random() * max
+    // Create initial array of numbers;
+    const rangeOfCommons = Array.from({length: 100}, (_, i) => i +1);
+    const ranngeOfUncommons = Array.from({length: 60}, (_, i) => i +1);
+    const arrayOfCommons = rangeOfCommons.map(value => ({value, sort: Math.random()}))
+    .sort((a,b) => a.sort - b.sort)
+    .map(({value})=> value)
+    .slice(0, 9);
+    const arrayOfUncommons = ranngeOfUncommons.map(value => ({value, sort: Math.random()}))
+    .sort((a,b) => a.sort - b.sort)
+    .map(({value})=> value)
+    .slice(0, 3);
+    console.log(arrayOfUncommons);
   }, [])
   
 
