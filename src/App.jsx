@@ -2,34 +2,30 @@ import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import pack from './helpers/createSinglePack';
+import createPreReleaseDraft from './helpers/createSinglePack';
 
 function App() {
   
   const [packData, setPackData] = useState([]);
-  const {singlePack, secondPack} = pack;
-  console.log(singlePack);
-  console.log(secondPack);
+  const [packIndex, setPackIndex] = useState(0);
+  const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
-
-   
-    const rangeOfCommons = Array.from({length: 100}, (_, i) => i +1);
-    const ranngeOfUncommons = Array.from({length: 60}, (_, i) => i +1);
-    const arrayOfCommons = rangeOfCommons.map(value => ({value, sort: Math.random()}))
-    .sort((a,b) => a.sort - b.sort)
-    .map(({value})=> value)
-    .slice(0, 9);
-    const arrayOfUncommons = ranngeOfUncommons.map(value => ({value, sort: Math.random()}))
-    .sort((a,b) => a.sort - b.sort)
-    .map(({value})=> value)
-    .slice(0, 3);
-    console.log(arrayOfUncommons);
+    const preReleaseDraft = createPreReleaseDraft();
+    setPackData(preReleaseDraft);
+    setIsLoading(false);
   }, [])
-  
+  if(isLoading) {
+    return <div>Loading...</div>
+  }
 
   return (
     <>
-      
+      {packData[packIndex].map((pack, index)=> {
+        console.log(pack);
+        return (
+          <img src={pack.FrontArt} alt={pack.Name} width={200} />
+        )
+      })}
     </>
   )
 }

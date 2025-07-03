@@ -18,27 +18,48 @@ import baseCards from '../data/baseData.json'
 // Make eight packs, choose 6. One of them is a legendary
 // Math.floor(Math.random() * max
 // Create initial array of numbers;
-function createSinglePack() {
-const rangeOfCommons = Array.from({ length: 100 }, (_, i) => i + 1);
-const rangeOfUncommons = Array.from({ length: 60 }, (_, i) => i + 1);
+function createSinglePack(isLegendary = false) {
+    const rangeOfCommons = Array.from({ length: 100 }, (_, i) => i + 1);
+    const rangeOfUncommons = Array.from({ length: 60 }, (_, i) => i + 1);
 
-const randomLeaderNumber = Math.floor(Math.random() * 18);
-const randomBaseNumber = Math.floor(Math.random() * 8);
-const arrayOfCommons = rangeOfCommons.map(value => ({ value, sort: Math.random() }))
-    .sort((a, b) => a.sort - b.sort)
-    .map(({ value }) => value)
-    .slice(0, 9)
-    .map((cardNumber) => commonCards[cardNumber]);
-const arrayOfUncommons = rangeOfUncommons.map(value => ({ value, sort: Math.random() }))
-    .sort((a, b) => a.sort - b.sort)
-    .map(({ value }) => value)
-    .slice(0, 3)
-    .map((cardNumber) => uncommonCards[cardNumber]);
-const randomRareNumber = Math.floor(Math.random() * 50);
-const randomLegendaryNumber = Math.floor(Math.random() * 20);
-
-const singlePack = [leaderCards[randomLeaderNumber], baseCards[randomBaseNumber]].concat(arrayOfCommons, arrayOfUncommons);
-return singlePack;
+    const randomLeaderNumber = Math.floor(Math.random() * 16);
+    const randomBaseNumber = Math.floor(Math.random() * 8);
+    const arrayOfCommons = rangeOfCommons.map(value => ({ value, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort)
+        .map(({ value }) => value)
+        .slice(0, 9)
+        .map((cardNumber) => commonCards[cardNumber]);
+    const arrayOfUncommons = rangeOfUncommons.map(value => ({ value, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort)
+        .map(({ value }) => value)
+        .slice(0, 3)
+        .map((cardNumber) => uncommonCards[cardNumber]);
+    const randomRareNumber = Math.floor(Math.random() * 50);
+    const randomLegendaryNumber = Math.floor(Math.random() * 20);
+    
+    const singlePack = [leaderCards[randomLeaderNumber], baseCards[randomBaseNumber]].concat(arrayOfCommons, arrayOfUncommons, [isLegendary ? legendaryCards[randomLegendaryNumber] : rareCards[randomRareNumber]]);
+    return singlePack;
 }
 
-export default createSinglePack;
+function createEightPacks() {
+    const packs = [];
+    for (let i = 0; i < 8; i++) {
+        if(i === 7) {
+            packs.push(createSinglePack(true));
+        } else {
+            packs.push(createSinglePack());
+        }
+    }
+    return packs;
+}
+
+function createPreReleaseDraft() {
+    const packs = createEightPacks();
+    return packs.map(value => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value)
+    .slice(0, 6)
+
+}
+
+export default createPreReleaseDraft;
