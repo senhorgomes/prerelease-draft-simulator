@@ -1,0 +1,162 @@
+[
+  {
+    "Set": "LOF",
+    "Number": "029",
+    "Name": "Crystal Caves",
+    "Subtitle": "Ilum",
+    "Type": "Base",
+    "Aspects": [
+      "Cunning"
+    ],
+    "HP": "28",
+    "FrontText": "When a friendly Force unit attacks: The Force is with you (create your Force token).",
+    "DoubleSided": false,
+    "Rarity": "Common",
+    "Unique": false,
+    "Artist": "Rocío Espin",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/029.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "026",
+    "Name": "Fortress Vader",
+    "Subtitle": "Mustafar",
+    "Type": "Base",
+    "Aspects": [
+      "Aggression"
+    ],
+    "HP": "28",
+    "FrontText": "When a friendly Force unit attacks: The Force is with you (create your Force token).",
+    "DoubleSided": false,
+    "Rarity": "Common",
+    "Unique": false,
+    "Artist": "Adrien Girod",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/026.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "023",
+    "Name": "Jedi Temple",
+    "Subtitle": "Coruscant",
+    "Type": "Base",
+    "Aspects": [
+      "Command"
+    ],
+    "HP": "28",
+    "FrontText": "When a friendly Force unit attacks: The Force is with you (create your Force token).",
+    "DoubleSided": false,
+    "Rarity": "Common",
+    "Unique": false,
+    "Artist": "Adrien Girod",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/023.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "020",
+    "Name": "Nightsister Lair",
+    "Subtitle": "Dathomir",
+    "Type": "Base",
+    "Aspects": [
+      "Vigilance"
+    ],
+    "HP": "28",
+    "FrontText": "When a friendly Force unit attacks: The Force is with you (create your Force token).",
+    "DoubleSided": false,
+    "Rarity": "Common",
+    "Unique": false,
+    "Artist": "Adrien Girod",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/020.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "021",
+    "Name": "Shadowed Undercity",
+    "Subtitle": "Coruscant",
+    "Type": "Base",
+    "Aspects": [
+      "Vigilance"
+    ],
+    "HP": "28",
+    "FrontText": "When a friendly Force unit attacks: The Force is with you (create your Force token).",
+    "DoubleSided": false,
+    "Rarity": "Common",
+    "Unique": false,
+    "Artist": "Marko Fiedler",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/021.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "024",
+    "Name": "Starlight Temple",
+    "Subtitle": "Starlight Beacon",
+    "Type": "Base",
+    "Aspects": [
+      "Command"
+    ],
+    "HP": "28",
+    "FrontText": "When a friendly Force unit attacks: The Force is with you (create your Force token).",
+    "DoubleSided": false,
+    "Rarity": "Common",
+    "Unique": false,
+    "Artist": "Aitor Prieto",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/024.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "027",
+    "Name": "Strangled Cliffs",
+    "Subtitle": "Dathomir",
+    "Type": "Base",
+    "Aspects": [
+      "Aggression"
+    ],
+    "HP": "28",
+    "FrontText": "When a friendly Force unit attacks: The Force is with you (create your Force token).",
+    "DoubleSided": false,
+    "Rarity": "Common",
+    "Unique": false,
+    "Artist": "Adrien Girod",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/027.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "030",
+    "Name": "The Holy City",
+    "Subtitle": "Jedha",
+    "Type": "Base",
+    "Aspects": [
+      "Cunning"
+    ],
+    "HP": "28",
+    "FrontText": "When a friendly Force unit attacks: The Force is with you (create your Force token).",
+    "DoubleSided": false,
+    "Rarity": "Common",
+    "Unique": false,
+    "Artist": "Adrien Girod",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/030.png"
+  }
+]

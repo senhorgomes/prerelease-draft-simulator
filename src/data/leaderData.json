@@ -1,0 +1,560 @@
+[
+  {
+    "Set": "LOF",
+    "Number": "003",
+    "Name": "Ahsoka Tano",
+    "Subtitle": "Fighting For Peace",
+    "Type": "Leader",
+    "Aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "FRINGE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "6",
+    "Power": "5",
+    "HP": "6",
+    "FrontText": "Action [Exhaust, use the Force (lose your Force token)]: Give a friendly unit Sentinel for this phase. (Enemy units in its arena must attack a sentinel when they attack you.)",
+    "EpicAction": "Epic Action: If you control 6 or more resources, deploy this leader.",
+    "DoubleSided": true,
+    "BackArt": "https://cdn.swu-db.com/images/cards/LOF/003-b.png",
+    "BackText": "On Attack: You may give a friendly unit Sentinel for this phase.",
+    "Rarity": "Common",
+    "Unique": true,
+    "Keywords": [
+      "Sentinel"
+    ],
+    "Artist": "Reno",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/003.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "018",
+    "Name": "Anakin Skywalker",
+    "Subtitle": "Tempted by the Dark Side",
+    "Type": "Leader",
+    "Aspects": [
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "5",
+    "Power": "4",
+    "HP": "6",
+    "FrontText": "Action [Exhaust, use the Force (lose your Force token)]: Play a Villainy non-unit card from your hand, ignoring its aspect penalties.",
+    "EpicAction": "Epic Action: If you control 5 or more resources, deploy this leader.",
+    "DoubleSided": true,
+    "BackArt": "https://cdn.swu-db.com/images/cards/LOF/018-b.png",
+    "BackText": "Action [use the Force]: Play a Villainy non-unit card from your hand, ignoring its aspect penalties.",
+    "Rarity": "Rare",
+    "Unique": true,
+    "Artist": "Reno",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/018.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "007",
+    "Name": "Avar Kriss",
+    "Subtitle": "Marshal of Starlight",
+    "Type": "Leader",
+    "Aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "9",
+    "Power": "4",
+    "HP": "10",
+    "FrontText": "Action [Exhaust]: The Force is with you (create your Force token).",
+    "EpicAction": "Epic Action: If the number of resources you control plus the number of times you used the Force this phase is 9 or more, deploy this leader.",
+    "DoubleSided": true,
+    "BackArt": "https://cdn.swu-db.com/images/cards/LOF/007-b.png",
+    "BackText": "While the Force is with you, this unit gets +4/+0 and gains Overwhelm.",
+    "Rarity": "Rare",
+    "Unique": true,
+    "Keywords": [
+      "Overwhelm"
+    ],
+    "Artist": "Robynn Frauhn",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/007.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "013",
+    "Name": "Barriss Offee",
+    "Subtitle": "We Have Become Villains",
+    "Type": "Leader",
+    "Aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "6",
+    "Power": "4",
+    "HP": "7",
+    "FrontText": "Action [Exhaust, use the Force (lose your Force token)]: Play an event from your hand. It costs 1 less.",
+    "EpicAction": "Epic Action: If you control 6 or more resources, deploy this leader.",
+    "DoubleSided": true,
+    "BackArt": "https://cdn.swu-db.com/images/cards/LOF/013-b.png",
+    "BackText": "Action [use the Force]: Play an event from your hand. It costs 1 less.",
+    "Rarity": "Rare",
+    "Unique": true,
+    "Artist": "Hoan Nguyen",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/013.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "015",
+    "Name": "Cal Kestis",
+    "Subtitle": "I Can't Keep Hiding",
+    "Type": "Leader",
+    "Aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "FRINGE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "4",
+    "Power": "3",
+    "HP": "4",
+    "FrontText": "Action [Exhaust, use the Force (lose your Force token)]: An opponent chooses a ready unit they control. Exhaust that unit.",
+    "EpicAction": "Epic Action: If you control 4 or more resources, deploy this leader.",
+    "DoubleSided": true,
+    "BackArt": "https://cdn.swu-db.com/images/cards/LOF/015-b.png",
+    "BackText": "On Attack: An opponent chooses a ready unit they control. Exhaust that unit.",
+    "Rarity": "Common",
+    "Unique": true,
+    "Artist": "Sandra Chlewińska",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/015.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "017",
+    "Name": "Darth Revan",
+    "Subtitle": "Scourge of the Old Republic",
+    "Type": "Leader",
+    "Aspects": [
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "SITH"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "5",
+    "Power": "3",
+    "HP": "6",
+    "FrontText": "When a friendly unit attacks and defeats a unit: You may exhaust this leader. If you do, give an Experience token to that friendly unit.",
+    "EpicAction": "Epic Action: If you control 5 or more resources, deploy this leader.",
+    "DoubleSided": true,
+    "BackArt": "https://cdn.swu-db.com/images/cards/LOF/017-b.png",
+    "BackText": "Restore 1 \nWhen a friendly unit attacks and defeats a unit: You may give an Experience token to that friendly unit.",
+    "Rarity": "Rare",
+    "Unique": true,
+    "Keywords": [
+      "Restore"
+    ],
+    "Artist": "Omercan Cirit",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/017.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "014",
+    "Name": "Grand Inquisitor",
+    "Subtitle": "Stories Travel Quickly",
+    "Type": "Leader",
+    "Aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "IMPERIAL",
+      "INQUISITOR"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "5",
+    "Power": "3",
+    "HP": "5",
+    "FrontText": "Action [Exhaust, use the Force (lose your Force token)]: Attack with a friendly unit. The defender gets -2/-0 for this attack.",
+    "EpicAction": "Epic Action: If you control 5 or more resources, deploy this leader.",
+    "DoubleSided": true,
+    "BackArt": "https://cdn.swu-db.com/images/cards/LOF/014-b.png",
+    "BackText": "Shielded (When you deploy this leader, give a Shield token to him.)\nOn Attack: The defender gets -2/-0 for this attack.",
+    "Rarity": "Common",
+    "Unique": true,
+    "Keywords": [
+      "Shielded"
+    ],
+    "Artist": "Gabriel Gómez Almenzar",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/014.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "004",
+    "Name": "Kanan Jarrus",
+    "Subtitle": "Help Us Survive",
+    "Type": "Leader",
+    "Aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REBEL",
+      "SPECTRE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "6",
+    "Power": "3",
+    "HP": "6",
+    "FrontText": "Action [C=1, Exhaust]: Give a Shield token to a Creature or Spectre unit.",
+    "EpicAction": "Epic Action: If you control 6 or more resources, deploy this leader.",
+    "DoubleSided": true,
+    "BackArt": "https://cdn.swu-db.com/images/cards/LOF/004-b.png",
+    "BackText": "Shielded (When you deploy this leader, give a Shield token to him.)\nWhile you control another Creature or Spectre unit, this unit gets +2/+2.",
+    "Rarity": "Rare",
+    "Unique": true,
+    "Keywords": [
+      "Shielded"
+    ],
+    "Artist": "Johnny Morrow",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/004.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "011",
+    "Name": "Kit Fisto",
+    "Subtitle": "Focused Jedi Master",
+    "Type": "Leader",
+    "Aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "5",
+    "Power": "1",
+    "HP": "6",
+    "FrontText": "Action [C=1, Exhaust]: If you attacked with a Jedi unit this phase, deal 2 damage to a unit.",
+    "EpicAction": "Epic Action: If you control 5 or more resources, deploy this leader.",
+    "DoubleSided": true,
+    "BackArt": "https://cdn.swu-db.com/images/cards/LOF/011-b.png",
+    "BackText": "Saboteur (When this unit attacks, ignore Sentinel and defeat the defender's Shields.)\nThis unit gets +1/+0 for each other friendly Jedi unit.",
+    "Rarity": "Common",
+    "Unique": true,
+    "Keywords": [
+      "Saboteur"
+    ],
+    "Artist": "Sebastián Guidobono",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/011.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "001",
+    "Name": "Kylo Ren",
+    "Subtitle": "We're Not Done Yet",
+    "Type": "Leader",
+    "Aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "FIRST ORDER"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "7",
+    "Power": "5",
+    "HP": "5",
+    "FrontText": "Action [Exhaust]: Discard a card from your hand. If you discarded an upgrade this way, draw a card.",
+    "EpicAction": "Epic Action: If you control 7 or more resources, deploy this leader.",
+    "DoubleSided": true,
+    "BackArt": "https://cdn.swu-db.com/images/cards/LOF/001-b.png",
+    "BackText": "Sentinel\nWhen Deployed: Play any number of upgrades from your discard pile on this unit (one at a time, paying their costs).",
+    "Rarity": "Rare",
+    "Unique": true,
+    "Artist": "Reno",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/001.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "005",
+    "Name": "Morgan Elsbeth",
+    "Subtitle": "Following the Call",
+    "Type": "Leader",
+    "Aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "IMPERIAL",
+      "NIGHT"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "5",
+    "Power": "3",
+    "HP": "6",
+    "FrontText": "Action [Exhaust]: Choose a friendly unit that attacked this phase. Play a unit from your hand that shares a Keyword with the chosen unit. It costs 1 less.",
+    "EpicAction": "Epic Action: If you control 5 or more resources, deploy this leader.",
+    "DoubleSided": true,
+    "BackArt": "https://cdn.swu-db.com/images/cards/LOF/005-b.png",
+    "BackText": "On Attack: The next unit you play this phase costs 1 less if it shares a Keyword with a friendly unit.",
+    "Rarity": "Rare",
+    "Unique": true,
+    "Artist": "Reno",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/005.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "002",
+    "Name": "Mother Talzin",
+    "Subtitle": "Power Through Magick",
+    "Type": "Leader",
+    "Aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "NIGHT"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "5",
+    "Power": "3",
+    "HP": "7",
+    "FrontText": "Action [Exhaust, use the Force (lose your Force token)]: Give a unit -1/-1 for this phase.",
+    "EpicAction": "Epic Action: If you control 5 or more resources, deploy this leader.",
+    "DoubleSided": true,
+    "BackArt": "https://cdn.swu-db.com/images/cards/LOF/002-b.png",
+    "BackText": "On Attack: You may give a unit -1/-1 for this phase.",
+    "Rarity": "Common",
+    "Unique": true,
+    "Artist": "Axel Hutt",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/002.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "008",
+    "Name": "Obi-Wan Kenobi",
+    "Subtitle": "Courage Makes Heroes",
+    "Type": "Leader",
+    "Aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "5",
+    "Power": "3",
+    "HP": "6",
+    "FrontText": "Action [Exhaust, use the Force (lose your Force token)]: Give an Experience token to a unit without an Experience token on it.",
+    "EpicAction": "Epic Action: If you control 5 or more resources, deploy this leader.",
+    "DoubleSided": true,
+    "BackArt": "https://cdn.swu-db.com/images/cards/LOF/008-b.png",
+    "BackText": "On Attack: You may give an Experience token to another unit without an Experience token on it.",
+    "Rarity": "Common",
+    "Unique": true,
+    "Artist": "Gabriel Gómez Almenzar",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/008.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "012",
+    "Name": "Rey",
+    "Subtitle": "Nobody",
+    "Type": "Leader",
+    "Aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "RESISTANCE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "7",
+    "Power": "6",
+    "HP": "8",
+    "FrontText": "Action [Exhaust]: If you played a non-unit Force card this phase, deal 1 damage to a unit.",
+    "EpicAction": "Epic Action: If you control 7 or more resources, deploy this leader.",
+    "DoubleSided": true,
+    "BackArt": "https://cdn.swu-db.com/images/cards/LOF/012-b.png",
+    "BackText": "When Deployed: You may discard your hand. If you do, draw 2 cards.",
+    "Rarity": "Rare",
+    "Unique": true,
+    "Artist": "David Buisan",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/012.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "006",
+    "Name": "Supreme Leader Snoke",
+    "Subtitle": "In the Seat of Power",
+    "Type": "Leader",
+    "Aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "FIRST ORDER",
+      "OFFICIAL"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "6",
+    "Power": "4",
+    "HP": "7",
+    "FrontText": "Action [C=1, Exhaust]: Give an Experience token to the unit with the most power among friendly Villainy units. (If multiple units are tied, choose one.)",
+    "EpicAction": "Epic Action: If you control 6 or more resources, deploy this leader.",
+    "DoubleSided": true,
+    "BackArt": "https://cdn.swu-db.com/images/cards/LOF/006-b.png",
+    "BackText": "On Attack: Give an Experience token to the unit with the most power among friendly Villainy units.",
+    "Rarity": "Common",
+    "Unique": true,
+    "Artist": "Pius Bak",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/006.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "010",
+    "Name": "Third Sister",
+    "Subtitle": "Seething With Ambition",
+    "Type": "Leader",
+    "Aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "IMPERIAL",
+      "INQUISITOR"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "5",
+    "Power": "5",
+    "HP": "4",
+    "FrontText": "Action [Exhaust]: Play a unit from your hand. It gains Hidden for this phase. (It can't be attacked for this phase unless it has Sentinel.)",
+    "EpicAction": "Epic Action: If you control 5 or more resources, deploy this leader.",
+    "DoubleSided": true,
+    "BackArt": "https://cdn.swu-db.com/images/cards/LOF/010-b.png",
+    "BackText": "Hidden (This unit can't be attacked if she was deployed this phase.)\nOn Attack: The next unit you play this phase gains Hidden.",
+    "Rarity": "Common",
+    "Unique": true,
+    "Keywords": [
+      "Hidden"
+    ],
+    "Artist": "Johnny Morrow",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/010.png"
+  }
+]

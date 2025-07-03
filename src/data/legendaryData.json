@@ -1,0 +1,619 @@
+[
+  {
+    "Set": "LOF",
+    "Number": "042",
+    "Name": "Always Two",
+    "Type": "Event",
+    "Aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "Traits": [
+      "SITH"
+    ],
+    "Cost": "4",
+    "FrontText": "Choose 2 friendly unique Sith units. If you do, give 2 Shield tokens and 2 Experience tokens to each chosen unit. Defeat all other friendly units.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": false,
+    "Artist": "Joey Vazquez",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/042.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "070",
+    "Name": "Anakin Skywalker",
+    "Subtitle": "Champion of Mortis",
+    "Type": "Unit",
+    "Aspects": [
+      "Vigilance"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "6",
+    "Power": "5",
+    "HP": "7",
+    "FrontText": "When Played: If there is a Heroism card in your discard pile, you may give a unit -3/-3 for this phase. \nWhen Played: If there is a Villainy card in your discard pile, you may give a unit -3/-3 for this phase.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Artist": "Johnny Morrow",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/070.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "170",
+    "Name": "Bendu",
+    "Subtitle": "Do You Fear the Storm?",
+    "Type": "Unit",
+    "Aspects": [
+      "Aggression"
+    ],
+    "Traits": [
+      "FORCE",
+      "CREATURE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "8",
+    "Power": "10",
+    "HP": "10",
+    "FrontText": "On Attack: Deal 3 damage to each other unit.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Artist": "Aitor Prieto",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/170.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "150",
+    "Name": "Cin Drallig",
+    "Subtitle": "Esteemed Blademaster",
+    "Type": "Unit",
+    "Aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "8",
+    "Power": "5",
+    "HP": "6",
+    "FrontText": "When Played: You may play a Lightsaber upgrade from your hand for free on this unit. If you do, ready him.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Artist": "Ario Murti",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/150.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "261",
+    "Name": "Constructed Lightsaber",
+    "Type": "Upgrade",
+    "Aspects": [],
+    "Traits": [
+      "ITEM",
+      "WEAPON",
+      "LIGHTSABER"
+    ],
+    "Cost": "3",
+    "FrontText": "Attach to a Force unit. \nIf attached unit is a Heroism unit, it gains Restore 2. \nIf attached unit is a Villainy unit, it gains Raid 2. \nIf attached unit is a non-Heroism, non-Villainy unit, it gains Sentinel.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": false,
+    "Artist": "Fernando Correa",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/261.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "234",
+    "Name": "Darth Malak",
+    "Subtitle": "Covetous Apprentice",
+    "Type": "Unit",
+    "Aspects": [
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "SITH"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "5",
+    "Power": "4",
+    "HP": "7",
+    "FrontText": "Overwhelm \nWhen Played: If you control a Sith leader unit, you may ready this unit.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Keywords": [
+      "Overwhelm"
+    ],
+    "Artist": "Benjamin Paulus",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/234.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "037",
+    "Name": "Darth Vader",
+    "Subtitle": "Twilight of the Apprentice",
+    "Type": "Unit",
+    "Aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "IMPERIAL",
+      "SITH"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "6",
+    "Power": "5",
+    "HP": "6",
+    "FrontText": "When Played: Give a Shield token to a friendly unit and to an enemy unit.\nOn Attack: Defeat an enemy unit with a Shield token on it.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Artist": "Kyle Petchock",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/037.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "132",
+    "Name": "Grand Inquisitor",
+    "Subtitle": "You're Right to Be Afraid",
+    "Type": "Unit",
+    "Aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "IMPERIAL",
+      "INQUISITOR"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "3",
+    "Power": "3",
+    "HP": "4",
+    "FrontText": "Hidden\nRaid 1\nOther friendly Inquisitor units gain Hidden.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Keywords": [
+      "Hidden",
+      "Raid"
+    ],
+    "Artist": "Johnny Morrow",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/132.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "246",
+    "Name": "Grogu",
+    "Subtitle": "Mysterious Child",
+    "Type": "Unit",
+    "Aspects": [
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "3",
+    "Power": "1",
+    "HP": "6",
+    "FrontText": "Hidden \nAction [Exhaust]: Heal up to 2 damage form a unit. If you do, deal that much damage to a unit.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Keywords": [
+      "Hidden"
+    ],
+    "Artist": "Joshua Carson",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/246.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "130",
+    "Name": "HK-47",
+    "Subtitle": "Exclamation: Die, Meatbag!",
+    "Type": "Unit",
+    "Aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "Traits": [
+      "SITH",
+      "DROID"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "2",
+    "Power": "2",
+    "HP": "4",
+    "FrontText": "When an enemy unit is defeated: Deal 1 damage to its controller's base.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Artist": "Guillaume Ospital",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/130.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "098",
+    "Name": "Leia Organa",
+    "Subtitle": "Extraordinary",
+    "Type": "Unit",
+    "Aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "RESISTANCE",
+      "OFFICIAL"
+    ],
+    "Arenas": [
+      "Space"
+    ],
+    "Cost": "5",
+    "Power": "5",
+    "HP": "5",
+    "FrontText": "While this unit is in the space arena, she can't ready and gains: \"Action [use the Force]: Move this unit to the ground arena and give each friendly Heroism unit +2/+2 for this phase.\"",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Artist": "Jessi Ochse",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/098.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "186",
+    "Name": "Marchion Ro",
+    "Subtitle": "Eye of the Nihil",
+    "Type": "Unit",
+    "Aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "Traits": [
+      "UNDERWORLD",
+      "NIHIL"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "6",
+    "Power": "6",
+    "HP": "7",
+    "FrontText": "Each friendly unit's Raid is doubled.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Keywords": [
+      "Raid"
+    ],
+    "Artist": "Marc Escachx",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/186.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "073",
+    "Name": "Mythosaur",
+    "Subtitle": "Folklore Awakened",
+    "Type": "Unit",
+    "Aspects": [
+      "Vigilance"
+    ],
+    "Traits": [
+      "MANDALORIAN",
+      "CREATURE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "9",
+    "Power": "10",
+    "HP": "10",
+    "FrontText": "Shielded \nFriendly upgraded units can't be exhausted or returned to hand by enemy card abilities.\nFriendly leaders gain the Mandalorian trait.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Keywords": [
+      "Shielded"
+    ],
+    "Artist": "Ario Murti",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/073.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "105",
+    "Name": "Oppo Rancisis",
+    "Subtitle": "Ancient Councilor",
+    "Type": "Unit",
+    "Aspects": [
+      "Command",
+      "Command"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "3",
+    "Power": "3",
+    "HP": "5",
+    "FrontText": "This unit gains Ambush while another friendly unit has Ambush. The same is true for Grit, Hidden, Overwhelm, Saboteur, Sentinel, and Shielded.\nThis unit gains Raid 2 while another friendly unit has Raid. The same is true for Restore.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Keywords": [
+      "Ambush",
+      "Grit",
+      "Hidden",
+      "Overwhelm",
+      "Raid",
+      "Restore",
+      "Saboteur",
+      "Sentinel",
+      "Shielded"
+    ],
+    "Artist": "Marc Escachx",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/105.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "200",
+    "Name": "Qui-Gon Jinn",
+    "Subtitle": "The Negotiations will be Short",
+    "Type": "Unit",
+    "Aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "7",
+    "Power": "7",
+    "HP": "5",
+    "FrontText": "Ambush \nWhen Defeated: You may choose a non-leader ground unit. Its owner puts it on the top or bottom of their deck.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Keywords": [
+      "Ambush"
+    ],
+    "Artist": "Gustavo Pelissari",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/200.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "089",
+    "Name": "Supremacy",
+    "Subtitle": "Of Unimaginable Size",
+    "Type": "Unit",
+    "Aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "Traits": [
+      "FIRST ORDER",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ],
+    "Arenas": [
+      "Space"
+    ],
+    "Cost": "12",
+    "Power": "12",
+    "HP": "12",
+    "FrontText": "Ambush \nOther friendly Vehicle units get +6/+6.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Keywords": [
+      "Ambush"
+    ],
+    "Artist": "Ignacio Bazan Lazcano",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/089.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "260",
+    "Name": "The Father",
+    "Subtitle": "Maintaining Balance",
+    "Type": "Unit",
+    "Aspects": [],
+    "Traits": [
+      "FORCE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "8",
+    "Power": "5",
+    "HP": "10",
+    "FrontText": "When you use the Force: You may deal 1 damage to this unit. If you do, the Force is with you.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Artist": "Johnny Morrow",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/260.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "213",
+    "Name": "The Legacy Run",
+    "Subtitle": "Doomed Debris",
+    "Type": "Unit",
+    "Aspects": [
+      "Cunning"
+    ],
+    "Traits": [
+      "REPUBLIC",
+      "VEHICLE",
+      "TRANSPORT"
+    ],
+    "Arenas": [
+      "Space"
+    ],
+    "Cost": "5",
+    "Power": "3",
+    "HP": "3",
+    "FrontText": "When Defeated: Deal 6 damage divided as you choose among enemy units.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Artist": "Ario Murti",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/213.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "101",
+    "Name": "Yoda",
+    "Subtitle": "My Ally is the Force",
+    "Type": "Unit",
+    "Aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "8",
+    "Power": "5",
+    "HP": "9",
+    "FrontText": "When Played: You may use the Force. If you do, heal 5 damage from a base.\nWhen you use the Force: You may deal damage to a unit equal to twice the number of units you control.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Artist": "David Buisan",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/101.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "204",
+    "Name": "Zuckuss",
+    "Subtitle": "The Findsman",
+    "Type": "Unit",
+    "Aspects": [
+      "Cunning",
+      "Cunning"
+    ],
+    "Traits": [
+      "FORCE",
+      "BOUNTY HUNTER"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "5",
+    "Power": "4",
+    "HP": "7",
+    "FrontText": "On Attack: Name a card, then discard the top card of the defending player's deck. If a card with that name is discarded, this unit gets +4/+0 for this attack.",
+    "DoubleSided": false,
+    "Rarity": "Legendary",
+    "Unique": true,
+    "Artist": "Marc Escachx",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/204.png"
+  }
+]

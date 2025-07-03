@@ -1,0 +1,1699 @@
+[
+  {
+    "Set": "LOF",
+    "Number": "222",
+    "Name": "A Precarious Predicament",
+    "Type": "Event",
+    "Aspects": [
+      "Cunning"
+    ],
+    "Traits": [
+      "TRICK"
+    ],
+    "Cost": "2",
+    "FrontText": "Return an enemy non-leader unit to its owner's hand unless its controller says, \"It could be worse.\" If they do, you may play a card named It's Worse from your hand or resources for free.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "JB Casacop",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/222.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "106",
+    "Name": "Acclamator Assault Ship",
+    "Type": "Unit",
+    "Aspects": [
+      "Command",
+      "Command"
+    ],
+    "Traits": [
+      "REPUBLIC",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ],
+    "Arenas": [
+      "Space"
+    ],
+    "Cost": "7",
+    "Power": "5",
+    "HP": "8",
+    "FrontText": "On Attack: You may give another unit +5/+5 for this phase.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Aarnoud De Rycker",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/106.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "165",
+    "Name": "Asajj Ventress",
+    "Subtitle": "Harden Your Heart",
+    "Type": "Unit",
+    "Aspects": [
+      "Aggression"
+    ],
+    "Traits": [
+      "FORCE",
+      "NIGHT",
+      "BOUNTY HUNTER"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "5",
+    "Power": "5",
+    "HP": "6",
+    "FrontText": "When Played/On Attack: Give another friendly Force unit +2/+0 for this phase.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Benjamin Paulus",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/165.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "174",
+    "Name": "Ataru Onslaught",
+    "Type": "Event",
+    "Aspects": [
+      "Aggression"
+    ],
+    "Traits": [
+      "LEARNED"
+    ],
+    "Cost": "2",
+    "FrontText": "Ready a Force unit with 4 or less power.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "JB Casacop",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/174.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "179",
+    "Name": "Aurra Sing",
+    "Subtitle": "Patient and Deadly",
+    "Type": "Unit",
+    "Aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "Traits": [
+      "UNDERWORLD",
+      "BOUNTY HUNTER"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "2",
+    "Power": "1",
+    "HP": "4",
+    "FrontText": "Hidden (This unit can't be attacked if it was played this phase.)\nRaid 2 (This unit gets +2/+0 while attacking.)",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Keywords": [
+      "Hidden",
+      "Raid"
+    ],
+    "Artist": "Gabriel Gómez Almenzar",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/179.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "191",
+    "Name": "BD-1",
+    "Subtitle": "Beep Boo Boo Bweep",
+    "Type": "Unit",
+    "Aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "Traits": [
+      "FRINGE",
+      "DROID"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "1",
+    "Power": "1",
+    "HP": "3",
+    "FrontText": "Hidden (This unit can't be attacked if it was played this phase.)\nWhen Played: Choose another friendly unit. While this unit is in play, the chosen unit gets +1/+0 and gains Saboteur.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Keywords": [
+      "Hidden",
+      "Saboteur"
+    ],
+    "Artist": "Kyle Petchock",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/191.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "139",
+    "Name": "Battle Fury",
+    "Type": "Upgrade",
+    "Aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "Traits": [
+      "INNATE"
+    ],
+    "Cost": "2",
+    "FrontText": "Attached unit gains: “On Attack: Discard a card from your hand.”",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Johnny Morrow",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/139.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "185",
+    "Name": "Baylan Skoll",
+    "Subtitle": "Enigmatic Master",
+    "Type": "Unit",
+    "Aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "FRINGE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "5",
+    "Power": "5",
+    "HP": "5",
+    "FrontText": "Hidden\nWhen Played: You may use the Force. If you do, return a non-leader unit that costs 4 or less to its owner's hand. Then, its owner may play it for free.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Keywords": [
+      "Hidden"
+    ],
+    "Artist": "David Buisan",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/185.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "166",
+    "Name": "Blockade Runner",
+    "Type": "Unit",
+    "Aspects": [
+      "Aggression"
+    ],
+    "Traits": [
+      "REBEL",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ],
+    "Arenas": [
+      "Space"
+    ],
+    "Cost": "5",
+    "Power": "4",
+    "HP": "4",
+    "FrontText": "Saboteur (When this unit attacks, ignore Sentinel and defeat the defender's Shields.)\nWhen this unit deals combat damage to a base: You may give an Experience token to this unit.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Keywords": [
+      "Saboteur"
+    ],
+    "Artist": "Francois Cannels",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/166.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "054",
+    "Name": "Calm in the Storm",
+    "Type": "Event",
+    "Aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE"
+    ],
+    "Cost": "2",
+    "FrontText": "Exhaust a friendly unit. If you do, give a Shield token and 2 Experience tokens to it.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Reno",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/054.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "243",
+    "Name": "Caretaker Matron",
+    "Type": "Unit",
+    "Aspects": [
+      "Heroism"
+    ],
+    "Traits": [
+      "FRINGE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "2",
+    "Power": "0",
+    "HP": "4",
+    "FrontText": "Action [Exhaust]: If you played a Force card this phase, draw a card.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Omercan Cirit",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/243.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "067",
+    "Name": "Chirrut Îmwe",
+    "Subtitle": "Blind, but not Deaf",
+    "Type": "Unit",
+    "Aspects": [
+      "Vigilance"
+    ],
+    "Traits": [
+      "FORCE",
+      "FRINGE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "4",
+    "Power": "3",
+    "HP": "5",
+    "FrontText": "Sentinel\nWhen this unit is attacked (before damage is dealt): You may use the Force (lose your Force token). If you do, the attacker gets -2/-0 for this attack.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Keywords": [
+      "Sentinel"
+    ],
+    "Artist": "EJ Dela Cruz",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/067.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "115",
+    "Name": "Dagoyan Master",
+    "Type": "Unit",
+    "Aspects": [
+      "Command"
+    ],
+    "Traits": [
+      "FORCE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "5",
+    "Power": "5",
+    "HP": "5",
+    "FrontText": "When Played/When Defeated: You may use the Force (lose your Force token). If you do, search the top 5 cards of your deck for a Force unit, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Aitor Prieto",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/115.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "199",
+    "Name": "Depa Billaba",
+    "Subtitle": "A Higher Purpose",
+    "Type": "Unit",
+    "Aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "6",
+    "Power": "5",
+    "HP": "7",
+    "FrontText": "Ambush (When you play this unit, she may attack an enemy unit.)\nSaboteur (When this unit attacks, ignore Sentinel and defeat the defender's Shields.)",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Keywords": [
+      "Ambush",
+      "Saboteur"
+    ],
+    "Artist": "Mali Vasanserekul",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/199.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "123",
+    "Name": "Directed by the Force",
+    "Type": "Event",
+    "Aspects": [
+      "Command"
+    ],
+    "Traits": [
+      "FORCE"
+    ],
+    "Cost": "1",
+    "FrontText": "The Force is with you (create your Force token). You may play a unit from your hand (paying its cost).",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Jessi Ochse",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/123.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "211",
+    "Name": "Dooku",
+    "Subtitle": "It is Too Late",
+    "Type": "Unit",
+    "Aspects": [
+      "Cunning"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "4",
+    "Power": "5",
+    "HP": "4",
+    "FrontText": "Hidden (This unit can't be attacked if it was played this phase.)\nWhen Played: Each friendly unit with Hidden can't be attacked for this phase.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Keywords": [
+      "Hidden"
+    ],
+    "Artist": "Sebastián Guidobono",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/211.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "087",
+    "Name": "Eighth Brother",
+    "Subtitle": "Hunt Together",
+    "Type": "Unit",
+    "Aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "IMPERIAL",
+      "INQUISITOR"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "6",
+    "Power": "5",
+    "HP": "7",
+    "FrontText": "Ambush (When you play this unit, it may attack an enemy unit.)\nWhen you play another unit: You may use the Force (lose your Force token). If you do, give a unit +2/+2 for this phase.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Keywords": [
+      "Ambush"
+    ],
+    "Artist": "Baldemar Rivas",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/087.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "046",
+    "Name": "Ezra Bridger",
+    "Subtitle": "Attuned With Life",
+    "Type": "Unit",
+    "Aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REBEL",
+      "SPECTRE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "3",
+    "Power": "3",
+    "HP": "5",
+    "FrontText": "On Attack: You may give an Experience token to another Creature or Spectre unit.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Derek Laufman",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/046.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "240",
+    "Name": "Flight of the Inquisitor",
+    "Type": "Event",
+    "Aspects": [
+      "Villainy"
+    ],
+    "Traits": [
+      "TACTIC"
+    ],
+    "Cost": "2",
+    "FrontText": "You may return a Force unit and a Lightsaber upgrade from your discard pile to your hand.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Shane Molina",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/240.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "152",
+    "Name": "Focus Determines Reality",
+    "Type": "Event",
+    "Aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE"
+    ],
+    "Cost": "2",
+    "FrontText": "Each friendly Force unit gains Raid 1 and Saboteur for this phase.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Keywords": [
+      "Raid",
+      "Saboteur"
+    ],
+    "Artist": "Milos Slavkovic",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/152.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "223",
+    "Name": "Force Illusion",
+    "Type": "Event",
+    "Aspects": [
+      "Cunning"
+    ],
+    "Traits": [
+      "FORCE",
+      "TRICK"
+    ],
+    "Cost": "2",
+    "FrontText": "Exhaust an enemy unit. A friendly unit gains Sentinel for this phase.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Keywords": [
+      "Sentinel"
+    ],
+    "Artist": "Reno",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/223.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "205",
+    "Name": "Force Speed",
+    "Type": "Event",
+    "Aspects": [
+      "Cunning",
+      "Cunning"
+    ],
+    "Traits": [
+      "FORCE"
+    ],
+    "Cost": "1",
+    "FrontText": "Attack with a unit. For this attack, it gains: “On Attack: Return any number of non-unique (non-unique) upgrades attached to the defender to their owners' hands.”",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Kevin Libranda",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/205.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "093",
+    "Name": "Gungi",
+    "Subtitle": "Finding Himself",
+    "Type": "Unit",
+    "Aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "WOOKIEE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "2",
+    "Power": "2",
+    "HP": "5",
+    "FrontText": "",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Ario Anindito",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/093.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "235",
+    "Name": "HK-87 Assassin Droid",
+    "Type": "Unit",
+    "Aspects": [
+      "Villainy"
+    ],
+    "Traits": [
+      "IMPERIAL",
+      "DROID"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "5",
+    "Power": "4",
+    "HP": "4",
+    "FrontText": "When Defeated: Deal 2 damage to each ground unit.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Guillaume Ospital",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/235.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "134",
+    "Name": "Heavy Missile Gunship",
+    "Type": "Unit",
+    "Aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "Traits": [
+      "SEPARATIST",
+      "DROID",
+      "VEHICLE",
+      "TRANSPORT"
+    ],
+    "Arenas": [
+      "Space"
+    ],
+    "Cost": "4",
+    "Power": "4",
+    "HP": "3",
+    "FrontText": "Action [Exhaust]: Deal 2 damage to a ground unit.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Marko Fiedler",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/134.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "218",
+    "Name": "Impossible Escape",
+    "Type": "Event",
+    "Aspects": [
+      "Cunning"
+    ],
+    "Traits": [
+      "FORCE"
+    ],
+    "Cost": "1",
+    "FrontText": "You may either exhaust a friendly unit or use the Force (lose your Force token). If you do either, exhaust an enemy unit and draw a card.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Kevin Libranda",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/218.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "156",
+    "Name": "Infused Brawler ",
+    "Type": "Unit",
+    "Aspects": [
+      "Aggression"
+    ],
+    "Traits": [
+      "FORCE",
+      "NIGHT"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "2",
+    "Power": "2",
+    "HP": "2",
+    "FrontText": "When Played: You may use the Force (lose your Force token). If you do, give 2 Experience tokens to this unit.\nWhen this unit completes an attack: Defeat an Experience token on it.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Gustavo Pelissari",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/156.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "244",
+    "Name": "Jedi Vector",
+    "Type": "Unit",
+    "Aspects": [
+      "Heroism"
+    ],
+    "Traits": [
+      "JEDI",
+      "VEHICLE",
+      "FIGHTER"
+    ],
+    "Arenas": [
+      "Space"
+    ],
+    "Cost": "2",
+    "Power": "1",
+    "HP": "3",
+    "FrontText": "This unit gets +1/+0 if you control another Jedi unit and +1/+0 if you control a Lightsaber upgrade.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Thomas Wievegg",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/244.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "248",
+    "Name": "Jocasta Nu",
+    "Subtitle": "The Gift of Knowledge",
+    "Type": "Unit",
+    "Aspects": [
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "3",
+    "Power": "3",
+    "HP": "4",
+    "FrontText": "When Played: You may attach a friendly upgrade on a friendly unit to a different eligible unit.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Nabetse Zitro",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/248.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "031",
+    "Name": "Karis",
+    "Subtitle": "We Don't Like Strangers",
+    "Type": "Unit",
+    "Aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "NIGHT"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "2",
+    "Power": "2",
+    "HP": "4",
+    "FrontText": "When Defeated: You may use the Force (lose your Force token). If you do, give a unit -2/-2 for this phase.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Nabetse Zitro",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/031.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "100",
+    "Name": "Kelleran Beq",
+    "Subtitle": "The Sabered Hand",
+    "Type": "Unit",
+    "Aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "7",
+    "Power": "7",
+    "HP": "7",
+    "FrontText": "When Played: Search the top 7 cards of your deck for a unit, reveal it, and play it. It costs 3 less. (Put the other cards on the bottom of your deck in a random order.)",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Gabriel Gómez Almenzar",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/100.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "146",
+    "Name": "Ki-Adi-Mundi",
+    "Subtitle": "We Must Push On",
+    "Type": "Unit",
+    "Aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "4",
+    "Power": "4",
+    "HP": "4",
+    "FrontText": "When Played: You may use the Force (lose your Force token). If you do, draw 2 cards.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Johnny Morrow",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/146.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "229",
+    "Name": "Kylo Ren",
+    "Subtitle": "I Know Your Story",
+    "Type": "Unit",
+    "Aspects": [
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "FIRST ORDER"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "2",
+    "Power": "2",
+    "HP": "3",
+    "FrontText": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.) \nWhen you play an upgrade on this unit: You may use the Force (lose your Force token). If you do, draw a card.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Keywords": [
+      "Overwhelm"
+    ],
+    "Artist": "Benjamin Paulus",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/229.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "176",
+    "Name": "Lightsaber Throw",
+    "Type": "Event",
+    "Aspects": [
+      "Aggression"
+    ],
+    "Traits": [
+      "TACTIC"
+    ],
+    "Cost": "2",
+    "FrontText": "Discard a Lightsaber card from your hand. If you do, deal 4 damage to a ground unit and draw a card.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Gabriel Gómez Almenzar",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/176.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "095",
+    "Name": "Lor San Tekka",
+    "Subtitle": "Secret Keeper",
+    "Type": "Unit",
+    "Aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "Traits": [
+      "RESISTANCE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "2",
+    "Power": "3",
+    "HP": "2",
+    "FrontText": "When Defeated: You may give an Experience token to a unique (unique) unit.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Afif Khaled",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/095.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "068",
+    "Name": "Luthen Rael",
+    "Subtitle": "Masquerading Antiquarian",
+    "Type": "Unit",
+    "Aspects": [
+      "Vigilance"
+    ],
+    "Traits": [
+      "REBEL"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "4",
+    "Power": "4",
+    "HP": "5",
+    "FrontText": "On Attack: Search the top 5 cards of your deck for an Item upgrade, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Ario Murti",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/068.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "149",
+    "Name": "Mace Windu",
+    "Subtitle": "Leaping into Action",
+    "Type": "Unit",
+    "Aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "6",
+    "Power": "6",
+    "HP": "6",
+    "FrontText": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)\nWhen Played: You may use the Force (lose your Force token). If you do, deal 4 damage to a unit.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Keywords": [
+      "Overwhelm"
+    ],
+    "Artist": "Eduardo Mello - Nikola Righi",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/149.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "111",
+    "Name": "Maz Kanata",
+    "Subtitle": "The Light Guides",
+    "Type": "Unit",
+    "Aspects": [
+      "Command"
+    ],
+    "Traits": [
+      "UNDERWORLD"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "3",
+    "Power": "3",
+    "HP": "4",
+    "FrontText": "When Played: You may attack with a Force unit. It gets +2/+0 for this attack.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Aitor Prieto",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/111.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "160",
+    "Name": "Merrin",
+    "Subtitle": "Alone with the Dead",
+    "Type": "Unit",
+    "Aspects": [
+      "Aggression"
+    ],
+    "Traits": [
+      "FORCE",
+      "NIGHT"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "3",
+    "Power": "2",
+    "HP": "5",
+    "FrontText": "On Attack: You may discard a card from your hand. If you do, deal 2 damage to a unit.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Sandra Chlewińska",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/160.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "033",
+    "Name": "Nameless Terror",
+    "Type": "Unit",
+    "Aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "Traits": [
+      "CREATURE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "3",
+    "Power": "3",
+    "HP": "3",
+    "FrontText": "When Played: You may exhaust a Force unit. \nOn Attack: Each enemy unit loses the Force trait for this phase.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Marc Escachx",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/033.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "124",
+    "Name": "Niman Strike",
+    "Type": "Event",
+    "Aspects": [
+      "Command"
+    ],
+    "Traits": [
+      "LEARNED"
+    ],
+    "Cost": "1",
+    "FrontText": "Attack with a Force unit, even if it's exhausted. It gets +1/+0 and can't attack bases for this attack.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Omercan Cirit",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/124.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "036",
+    "Name": "Old Daka",
+    "Subtitle": "Oldest and Wisest",
+    "Type": "Unit",
+    "Aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "NIGHT"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "5",
+    "Power": "6",
+    "HP": "6",
+    "FrontText": "When Played: You may defeat a friendly Night unit not named Old Daka. Then, you may play that unit from your discard pile for free.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Monika Palosz",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/036.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "057",
+    "Name": "Owen Lars",
+    "Subtitle": "Devoted Uncle",
+    "Type": "Unit",
+    "Aspects": [
+      "Vigilance"
+    ],
+    "Traits": [
+      "FRINGE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "1",
+    "Power": "0",
+    "HP": "3",
+    "FrontText": "Restore 2 \nWhen Defeated: Search the top 5 cards of your deck for a Force unit, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order.)",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Keywords": [
+      "Restore"
+    ],
+    "Artist": "Ario Murti",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/057.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "258",
+    "Name": "Peli Motto",
+    "Subtitle": "I Should Charge You More",
+    "Type": "Unit",
+    "Aspects": [],
+    "Traits": [
+      "FRINGE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "2",
+    "Power": "1",
+    "HP": "4",
+    "FrontText": "On Attack: Give an Experience token to a friendly Vehicle or Droid unit.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Gabriel Gómez Almenzar",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/258.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "122",
+    "Name": "Pillio Star Compass",
+    "Type": "Upgrade",
+    "Aspects": [
+      "Command"
+    ],
+    "Traits": [
+      "ITEM"
+    ],
+    "Cost": "2",
+    "FrontText": "Attach to a non-Vehicle unit.\nWhen Played: Search the top 3 cards of your deck for a unit, reveal it, and draw it. (Put the other cards on the bottom of your deck in a random order).",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Amad Mir",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/122.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "050",
+    "Name": "Plo Koon",
+    "Subtitle": "I Don't Believe in Chance",
+    "Type": "Unit",
+    "Aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "6",
+    "Power": "6",
+    "HP": "8",
+    "FrontText": "While the Force is with you, this unit gains Grit. (He gets +1/+0 for each damage on him.)",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Keywords": [
+      "Grit"
+    ],
+    "Artist": "Gabriel Gómez Almenzar",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/050.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "072",
+    "Name": "Priestesses of the Force",
+    "Subtitle": "Eternal",
+    "Type": "Unit",
+    "Aspects": [
+      "Vigilance"
+    ],
+    "Traits": [
+      "FORCE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "7",
+    "Power": "6",
+    "HP": "8",
+    "FrontText": "When Played: You may use the Force (lose your Force token). If you do, give a Shield token to each of up to 5 units.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Sebastián Guidobono",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/072.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "163",
+    "Name": "Quinlan Vos",
+    "Subtitle": "Dark Disciple",
+    "Type": "Unit",
+    "Aspects": [
+      "Aggression"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "4",
+    "Power": "4",
+    "HP": "5",
+    "FrontText": "On Attack: If this unit has 6 or more power, you may deal 2 damage to an enemy base.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Benjamin Paulus",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/163.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "127",
+    "Name": "Rampage",
+    "Type": "Event",
+    "Aspects": [
+      "Command"
+    ],
+    "Traits": [
+      "INNATE"
+    ],
+    "Cost": "3",
+    "FrontText": "Each friendly Creature unit gets +2/+2 for this phase.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Marc Escachx",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/127.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "167",
+    "Name": "Saesee Tiin",
+    "Subtitle": "Courageous Warrior",
+    "Type": "Unit",
+    "Aspects": [
+      "Aggression"
+    ],
+    "Traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "5",
+    "Power": "4",
+    "HP": "6",
+    "FrontText": "When Played: If you have the initiative, deal 1 damage to each of up to 3 units.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Baldemar Rivas",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/167.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "137",
+    "Name": "Savage Opress",
+    "Subtitle": "Imbued With Hate",
+    "Type": "Unit",
+    "Aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "NIGHT"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "6",
+    "Power": "9",
+    "HP": "6",
+    "FrontText": "Overwhelm (When attacking an enemy unit, deal excess damage to the opponent's base.)\nWhen Played/When Defeated: You may use the Force (lose your Force token). If you don't, deal 9 damage to your base.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Keywords": [
+      "Overwhelm"
+    ],
+    "Artist": "Marc Escachx",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/137.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "079",
+    "Name": "Shatterpoint",
+    "Type": "Event",
+    "Aspects": [
+      "Vigilance"
+    ],
+    "Traits": [
+      "FORCE"
+    ],
+    "Cost": "4",
+    "FrontText": "Choose one: \nDefeat a non-leader unit with 3 or less remaining HP. \nUse the Force (lose your Force token). If you do, defeat a non-leader unit.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Eduardo Mello - Nikola Righi",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/079.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "220",
+    "Name": "Shien Flurry",
+    "Type": "Event",
+    "Aspects": [
+      "Cunning"
+    ],
+    "Traits": [
+      "LEARNED"
+    ],
+    "Cost": "1",
+    "FrontText": "Play a Force unit from your hand (paying its cost). It gains Ambush for this phase. The next time it would be dealt damage this phase, prevent 2 of that damage.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Keywords": [
+      "Ambush"
+    ],
+    "Artist": "Patrick Brown",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/220.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "183",
+    "Name": "Shin Hati",
+    "Subtitle": "Overeager Apprentice",
+    "Type": "Unit",
+    "Aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "Traits": [
+      "FORCE",
+      "FRINGE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "3",
+    "Power": "4",
+    "HP": "2",
+    "FrontText": "Hidden (This unit can't be attacked if it was played this phase.)\nShielded (When you play this unit, give a Shield token to her.)",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Keywords": [
+      "Hidden",
+      "Shielded"
+    ],
+    "Artist": "David Buisan",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/183.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "081",
+    "Name": "Sith Legionnaire",
+    "Type": "Unit",
+    "Aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "Traits": [
+      "SITH",
+      "TROOPER"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "2",
+    "Power": "2",
+    "HP": "2",
+    "FrontText": "While you control another Villainy unit, this unit gets +2/+0.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Facundo Moyano",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/081.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "076",
+    "Name": "Soresu Stance",
+    "Type": "Event",
+    "Aspects": [
+      "Vigilance"
+    ],
+    "Traits": [
+      "LEARNED"
+    ],
+    "Cost": "1",
+    "FrontText": "Play a Force unit from your hand (paying its cost) and give a Shield token to it.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Artist": "Tatsiana Maksimuk",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/076.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "198",
+    "Name": "Stinger Mantis",
+    "Subtitle": "Where Are We Going?",
+    "Type": "Unit",
+    "Aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "Traits": [
+      "FRINGE",
+      "VEHICLE",
+      "TRANSPORT"
+    ],
+    "Arenas": [
+      "Space"
+    ],
+    "Cost": "5",
+    "Power": "4",
+    "HP": "6",
+    "FrontText": "When Played: You may deal 2 damage to an exhausted unit.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Thomas Wievegg",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/198.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "225",
+    "Name": "Three Lessons",
+    "Type": "Event",
+    "Aspects": [
+      "Cunning"
+    ],
+    "Traits": [
+      "LEARNED"
+    ],
+    "Cost": "2",
+    "FrontText": "Play a unit from your hand (paying its cost). It gains Hidden for this phase. Give an Experience token and a Shield token to it.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": false,
+    "Keywords": [
+      "Hidden"
+    ],
+    "Artist": "Benjamin Paulus",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/225.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "082",
+    "Name": "Vaneé",
+    "Subtitle": "I Live to Serve",
+    "Type": "Unit",
+    "Aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "Traits": [
+      "IMPERIAL",
+      "SITH",
+      "OFFICIAL"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "2",
+    "Power": "2",
+    "HP": "4",
+    "FrontText": "When Played/On Attack: You may defeat an Experience token on a friendly unit. If you do, give an Experience token to a friendly unit.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Marc Escachx",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/082.png"
+  },
+  {
+    "Set": "LOF",
+    "Number": "065",
+    "Name": "Watto",
+    "Type": "Unit",
+    "Aspects": [
+      "Vigilance"
+    ],
+    "Traits": [
+      "FRINGE"
+    ],
+    "Arenas": [
+      "Ground"
+    ],
+    "Cost": "3",
+    "Power": "1",
+    "HP": "6",
+    "FrontText": "On Attack: An opponent chooses one: \nYou give an Experience token to a friendly unit. \nYou draw a card.",
+    "DoubleSided": false,
+    "Rarity": "Uncommon",
+    "Unique": true,
+    "Artist": "Reno",
+    "VariantType": "Normal",
+    "MarketPrice": "0.00",
+    "FoilPrice": "0.00",
+    "FrontArt": "https://cdn.swu-db.com/images/cards/LOF/065.png"
+  }
+]
