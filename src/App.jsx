@@ -38,7 +38,7 @@ function App() {
       {mode === "openPacks" && (
         <div>
           <h1>Open Packs</h1>
-          <ul>
+          <ul className="packList">
             {packData[packIndex].map((singleCard, index) => {
               return (
                 <li key={singleCard.Number}>

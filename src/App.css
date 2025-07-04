@@ -70,3 +70,13 @@ th, td {
   cursor: pointer;
 }
 
+.packList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+

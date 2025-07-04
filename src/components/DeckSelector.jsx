@@ -28,48 +28,92 @@ function DeckSelector({packData}) {
     //         Unit: [],
     //         Event: [],
     //         Upgrade: [],
+    //     },
+    //     Command: {
+    //         Leader: [],
+    //         Base: [],
+    //         Unit: [],
+    //         Event: [],
+    //         Upgrade: [],
+    //     },
+    //     Cunning: {
+    //         Leader: [],
+    //         Base: [],
+    //         Unit: [],
+    //         Event: [],
+    //         Upgrade: [],
+    //     },
+    //     Vigilance: {
+    //         Leader: [],
+    //         Base: [],
+    //         Unit: [],
+    //         Event: [],
+    //         Upgrade: [],
+    //     },
+    // };
+
+    // Configuration for different card types
+    const cardTypeConfig = {
+        Leader: { key: "Leader", isSingle: true },
+        Base: { key: "Base", isSingle: true },
+        Unit: { key: (card) => card.Arenas[0] === "Ground" ? "GroundUnits" : "SpaceUnits", isSingle: false },
+        Event: { key: "Events", isSingle: false },
+        Upgrade: { key: "Upgrades", isSingle: false }
+    };
+
     const handleCardClick = (card, count) => {
-        const cardType = card.Type;
-        if(cardType === "Leader") {
-            if(selectedCards.Leader[card.Number] === card.Number) {
-                setSelectedCards((prev) => ({...prev, Leader: {}}));
-            } else {
-                setSelectedCards((prev) => ({...prev, Leader: card}));
-            }
-        } else if(cardType === "Base") {
-            if(selectedCards.Base[card.Number] === card.Number) {
-                setSelectedCards((prev) => ({...prev, Base: {}}));
-            } else {
-                setSelectedCards((prev) => ({...prev, Base: card}));
-            }
-        } else if(cardType === "Unit") {
-            if(card.Arenas[0] === "Ground") {
-                if(selectedCards.GroundUnits[card.Number] === card.Number && selectedCards.GroundUnits[card.Number].count < count) {
-                    setSelectedCards((prev) => ({...prev, GroundUnits: {...prev.GroundUnits, [card.Number]: {cardData: card, count: prev.GroundUnits[card.Number].count + count}}}));
-                } else {
-                    setSelectedCards((prev) => ({...prev, GroundUnits: {...prev.GroundUnits, [card.Number]: {cardData: card, count: 1}}}));
-                }
-            } else {
-                if(selectedCards.SpaceUnits[card.Number] === card.Number && selectedCards.SpaceUnits[card.Number].count < count) {
-                    setSelectedCards((prev) => ({...prev, SpaceUnits: {...prev.SpaceUnits, [card.Number]: {cardData: card, count: prev.SpaceUnits[card.Number].count + count}}}));
-                } else {
-                    setSelectedCards((prev) => ({...prev, SpaceUnits: {...prev.SpaceUnits, [card.Number]: {cardData: card, count: 1}}}));
-                }
-            }
-        } else if(cardType === "Event") {
-            if(selectedCards.Events[card.Number] === card.Number && selectedCards.Events[card.Number].count < count) {
-                setSelectedCards((prev) => ({...prev, Events: {...prev.Events, [card.Number]: {cardData: card, count: prev.Events[card.Number].count + count}}}));
-            } else {
-                setSelectedCards((prev) => ({...prev, Events: {...prev.Events, [card.Number]: {cardData: card, count: 1}}}));
-            }
-        } else if(cardType === "Upgrade") {
-            if(selectedCards.Upgrades[card.Number] === card.Number && selectedCards.Upgrades[card.Number].count < count) {
-                setSelectedCards((prev) => ({...prev, Upgrades: {...prev.Upgrades, [card.Number]: {cardData: card, count: prev.Upgrades[card.Number].count + count}}}));
-            } else {
-                setSelectedCards((prev) => ({...prev, Upgrades: {...prev.Upgrades, [card.Number]: {cardData: card, count: 1}}}));
-            }
+        const config = cardTypeConfig[card.Type];
+        if (!config) return;
+        
+        const categoryKey = typeof config.key === "function" ? config.key(card) : config.key;
+        
+        if (config.isSingle) {
+            handleSingleCardSelection(card, categoryKey);
+        } else {
+            handleCountedCardSelection(card, categoryKey, count);
         }
-    }
+    };
+
+    // Helper function for Leader and Base cards (single selection)
+    const handleSingleCardSelection = (card, categoryKey) => {
+        setSelectedCards((prev) => ({
+            ...prev,
+            [categoryKey]: prev[categoryKey].Number === card.Number ? {} : card
+        }));
+    };
+
+    // Helper function for Unit, Event, and Upgrade cards (count-based)
+    const handleCountedCardSelection = (card, categoryKey, maxCount) => {
+        setSelectedCards((prev) => {
+            const currentSelection = prev[categoryKey][card.Number];
+            const isAlreadySelected = currentSelection !== undefined;
+            const canIncrement = isAlreadySelected && currentSelection.count < maxCount;
+            
+            if (canIncrement) {
+                return {
+                    ...prev,
+                    [categoryKey]: {
+                        ...prev[categoryKey],
+                        [card.Number]: {
+                            cardData: card,
+                            count: currentSelection.count + 1
+                        }
+                    }
+                };
+            } else {
+                return {
+                    ...prev,
+                    [categoryKey]: {
+                        ...prev[categoryKey],
+                        [card.Number]: {
+                            cardData: card,
+                            count: 1
+                        }
+                    }
+                };
+            }
+        });
+    };
 
     return (
         <div>
@@ -351,31 +395,25 @@ function DeckSelector({packData}) {
                 {selectedCards.Leader.Name && <h3>Leader: {selectedCards.Leader.Name}</h3>}
                 <h3>Ground Units:</h3>
                 <ul>
-                    {Object.values(selectedCards.GroundUnits).map((cardData, count)=> 
+                    {Object.values(selectedCards.GroundUnits).map(({cardData, count})=> 
                         <li>{cardData.Name}, x{count}</li>
                     )}
                 </ul>
                 <h3>Space Units:</h3>
                 <ul>
-                    {Object.values(selectedCards.SpaceUnits).map((cardData, count)=> 
-                        <li>{cardData.Name}, x{count}</li>
-                    )}
-                </ul>
-                <h3>Space Units:</h3>
-                <ul>
-                    {Object.values(selectedCards.SpaceUnits).map((cardData, count)=> 
+                    {Object.values(selectedCards.SpaceUnits).map(({cardData, count})=> 
                         <li>{cardData.Name}, x{count}</li>
                     )}
                 </ul>
                 <h3>Events:</h3>
                 <ul>
-                    {Object.values(selectedCards.Events).map((cardData, count)=> 
+                    {Object.values(selectedCards.Events).map(({cardData, count})=> 
                         <li>{cardData.Name}, x{count}</li>
                     )}
                 </ul>
                 <h3>Upgrades:</h3>
                 <ul>
-                    {Object.values(selectedCards.Upgrades).map((cardData, count)=> 
+                    {Object.values(selectedCards.Upgrades).map(({cardData, count})=> 
                         <li>{cardData.Name}, x{count}</li>
                     )}
                 </ul>
