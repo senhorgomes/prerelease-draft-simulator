@@ -4,10 +4,10 @@ function DeckSelector({packData}) {
     const [selectedCards, setSelectedCards] = useState({
         Leader: {},
         Base: {},
-        GroundUnits: [],
-        SpaceUnits: [],
-        Events: [],
-        Upgrades: [],
+        GroundUnits: {},
+        SpaceUnits: {},
+        Events: {},
+        Upgrades: {},
     });
     // Pack data needs to be processed here
     // I need to create a deck of at least 30 cards
@@ -28,8 +28,47 @@ function DeckSelector({packData}) {
     //         Unit: [],
     //         Event: [],
     //         Upgrade: [],
-    const handleCardClick = (card) => {
+    const handleCardClick = (card, count) => {
         const cardType = card.Type;
+        if(cardType === "Leader") {
+            if(selectedCards.Leader[card.Number] === card.Number) {
+                setSelectedCards((prev) => ({...prev, Leader: {}}));
+            } else {
+                setSelectedCards((prev) => ({...prev, Leader: card}));
+            }
+        } else if(cardType === "Base") {
+            if(selectedCards.Base[card.Number] === card.Number) {
+                setSelectedCards((prev) => ({...prev, Base: {}}));
+            } else {
+                setSelectedCards((prev) => ({...prev, Base: card}));
+            }
+        } else if(cardType === "Unit") {
+            if(card.Arenas[0] === "Ground") {
+                if(selectedCards.GroundUnits[card.Number] === card.Number && selectedCards.GroundUnits[card.Number].count < count) {
+                    setSelectedCards((prev) => ({...prev, GroundUnits: {...prev.GroundUnits, [card.Number]: {cardData: card, count: prev.GroundUnits[card.Number].count + count}}}));
+                } else {
+                    setSelectedCards((prev) => ({...prev, GroundUnits: {...prev.GroundUnits, [card.Number]: {cardData: card, count: 1}}}));
+                }
+            } else {
+                if(selectedCards.SpaceUnits[card.Number] === card.Number && selectedCards.SpaceUnits[card.Number].count < count) {
+                    setSelectedCards((prev) => ({...prev, SpaceUnits: {...prev.SpaceUnits, [card.Number]: {cardData: card, count: prev.SpaceUnits[card.Number].count + count}}}));
+                } else {
+                    setSelectedCards((prev) => ({...prev, SpaceUnits: {...prev.SpaceUnits, [card.Number]: {cardData: card, count: 1}}}));
+                }
+            }
+        } else if(cardType === "Event") {
+            if(selectedCards.Events[card.Number] === card.Number && selectedCards.Events[card.Number].count < count) {
+                setSelectedCards((prev) => ({...prev, Events: {...prev.Events, [card.Number]: {cardData: card, count: prev.Events[card.Number].count + count}}}));
+            } else {
+                setSelectedCards((prev) => ({...prev, Events: {...prev.Events, [card.Number]: {cardData: card, count: 1}}}));
+            }
+        } else if(cardType === "Upgrade") {
+            if(selectedCards.Upgrades[card.Number] === card.Number && selectedCards.Upgrades[card.Number].count < count) {
+                setSelectedCards((prev) => ({...prev, Upgrades: {...prev.Upgrades, [card.Number]: {cardData: card, count: prev.Upgrades[card.Number].count + count}}}));
+            } else {
+                setSelectedCards((prev) => ({...prev, Upgrades: {...prev.Upgrades, [card.Number]: {cardData: card, count: 1}}}));
+            }
+        }
     }
 
     return (
