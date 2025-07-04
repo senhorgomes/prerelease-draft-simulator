@@ -69,39 +69,39 @@ export function processPackData(packData) {
     const formattedPackData = {
         // Aspect.length === 0 is neutral
         Neutral: {
-            Leader: [],
-            Base: [],
-            Unit: [],
-            Event: [],
-            Upgrade: [],
+            Leader: {},
+            Base: {},
+            Unit: {},
+            Event: {},
+            Upgrade: {},
         },
         Aggression: {
-            Leader: [],
-            Base: [],
-            Unit: [],
-            Event: [],
-            Upgrade: [],
+            Leader: {},
+            Base: {},
+            Unit: {},
+            Event: {},
+            Upgrade: {},
         },
         Command: {
-            Leader: [],
-            Base: [],
-            Unit: [],
-            Event: [],
-            Upgrade: [],
+            Leader: {},
+            Base: {},
+            Unit: {},
+            Event: {},
+            Upgrade: {},
         },
         Cunning: {
-            Leader: [],
-            Base: [],
-            Unit: [],
-            Event: [],
-            Upgrade: [],
+            Leader: {},
+            Base: {},
+            Unit: {},
+            Event: {},
+            Upgrade: {},
         },
         Vigilance: {
-            Leader: [],
-            Base: [],
-            Unit: [],
-            Event: [],
-            Upgrade: [],
+            Leader: {},
+            Base: {},
+            Unit: {},
+            Event: {},
+            Upgrade: {},
         },
     }
     preReleaseDraft.forEach(pack => {
@@ -109,11 +109,19 @@ export function processPackData(packData) {
             // Anakin is a neutral leader.
             // check every single card to check their aspect
             if(singleCard.Aspects.length === 0 || (singleCard.Aspects.length === 1 && singleCard.Type === "Leader")) {
-                formattedPackData.Neutral[singleCard.Type].push(singleCard);
+                if(formattedPackData.Neutral[singleCard.Type][singleCard.Number]) {
+                    formattedPackData.Neutral[singleCard.Type][singleCard.Number].count++;
+                } else {
+                    formattedPackData.Neutral[singleCard.Type][singleCard.Number] = {cardData: singleCard, count: 1};
+                }
             } else {
                 aspectKeys.forEach(aspect => {
                     if(singleCard.Aspects.includes(aspect)) {
-                        formattedPackData[aspect][singleCard.Type].push(singleCard);
+                        if(formattedPackData[aspect][singleCard.Type][singleCard.Number]) {
+                            formattedPackData[aspect][singleCard.Type][singleCard.Number].count++;
+                        } else {
+                            formattedPackData[aspect][singleCard.Type][singleCard.Number] = {cardData: singleCard, count: 1};
+                        }
                     }
                 })
             }
