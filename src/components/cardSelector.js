@@ -68,22 +68,76 @@ function DeckSelector(packData) {
                                     </li>
                                 ))}
                             </td>
+                            <td>
+                                {packData.Neutral.Unit.filter(unit => unit.Arenas === "Space").map((unit) => (
+                                    <li key={unit.Number}>
+                                        {unit.Name}
+                                    </li>
+                                ))}
+                            </td>
+                            <td>
+                                {packData.Neutral.Event.map((event) => (
+                                    <li key={event.Number}>
+                                        {event.Name}
+                                    </li>
+                                ))}
+                            </td>
+                            <td>
+                                {packData.Neutral.Upgrade.map((upgrade) => (
+                                    <li key={upgrade.Number}>
+                                        {upgrade.Name}
+                                    </li>
+                                ))}
+                            </td>
                         </tr>
+                        <tr>
+                            <th>Agression</th>
+                            <td>
+                                {packData.Agression.Leader.map((leader) => (
+                                    <li key={leader.Number}>
+                                        {leader.Name}
+                                        {/* <img src={leader.FrontArt} alt={leader.Name} width={200} /> */}
+                                    </li>
+                                ))}
+                            </td>
+                            <td>
+                                {packData.Agression.Base.map((base) => (
+                                    <li key={base.Number}>
+                                        {base.Name}
+                                    </li>
+                                ))}
+                            </td>
+                            <td>
+                                {packData.Agression.Unit.filter(unit => unit.Arenas === "Ground").map((unit) => (
+                                    <li key={unit.Number}>
+                                        {unit.Name}
+                                    </li>
+                                ))}
+                            </td>
+                            <td>
+                                {packData.Agression.Unit.filter(unit => unit.Arenas === "Space").map((unit) => (
+                                    <li key={unit.Number}>
+                                        {unit.Name}
+                                    </li>
+                                ))}
+                            </td>
+                            <td>
+                                {packData.Agression.Event.map((event) => (
+                                    <li key={event.Number}>
+                                        {event.Name}
+                                    </li>
+                                ))}
+                            </td>
+                            <td>
+                                {packData.Agression.Upgrade.map((upgrade) => (
+                                    <li key={upgrade.Number}>
+                                        {upgrade.Name}
+                                    </li>
+                                ))}
+                            </td>
+                        </tr>  
                     </tbody>
                 </table>
-
-                {/* Display leaders */}
-                {/* Bases */}
-                {/* units */}
-                {/* events */}
-                {/* upgrades */}
-                <ul>
-                    {packData.Neutral.Leader.map((leader) => (
-                        <li key={leader.Number}>
-                            <img src={leader.FrontArt} alt={leader.Name} width={200} />
-                        </li>
-                    ))}
-                </ul>
             </div>
             <div>
                 <h2>Cards</h2>
