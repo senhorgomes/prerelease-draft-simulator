@@ -92,7 +92,7 @@ function DeckSelector({packData}) {
                             <th>Neutral</th>
                             <td>
                                 {packData.Neutral.Leader && Object.values(packData.Neutral.Leader).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Leader: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -100,7 +100,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Neutral.Base && Object.values(packData.Neutral.Base).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Base: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -108,7 +108,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Neutral.Unit && Object.values(packData.Neutral.Unit).filter(unit => unit.cardData.Arenas === "Ground").map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, GroundUnits: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -116,7 +116,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Neutral.Unit && Object.values(packData.Neutral.Unit).filter(unit => unit.cardData.Arenas === "Space").map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, SpaceUnits: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -124,7 +124,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Neutral.Event && Object.values(packData.Neutral.Event).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Events: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -132,7 +132,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Neutral.Upgrade && Object.values(packData.Neutral.Upgrade).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Upgrades: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -143,7 +143,7 @@ function DeckSelector({packData}) {
                             <th>Aggression</th>
                             <td>
                                 {packData.Aggression.Leader && Object.values(packData.Aggression.Leader).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Leader: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -151,7 +151,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Aggression.Base && Object.values(packData.Aggression.Base).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Base: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -159,7 +159,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Aggression.Unit && Object.values(packData.Aggression.Unit).filter(unit => unit.cardData.Arenas === "Ground").map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, GroundUnits: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -167,7 +167,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Aggression.Unit && Object.values(packData.Aggression.Unit).filter(unit => unit.cardData.Arenas === "Space").map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, SpaceUnits: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -175,7 +175,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Aggression.Event && Object.values(packData.Aggression.Event).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Events: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -183,7 +183,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Aggression.Upgrade && Object.values(packData.Aggression.Upgrade).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Upgrades: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -194,7 +194,7 @@ function DeckSelector({packData}) {
                             <th>Command</th>
                             <td>
                                 {packData.Command.Leader && Object.values(packData.Command.Leader).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Leader: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -202,7 +202,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Command.Base && Object.values(packData.Command.Base).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Base: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -210,7 +210,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Command.Unit && Object.values(packData.Command.Unit).filter(unit => unit.cardData.Arenas === "Ground").map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, GroundUnits: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -218,7 +218,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Command.Unit && Object.values(packData.Command.Unit).filter(unit => unit.cardData.Arenas === "Space").map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, SpaceUnits: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -226,7 +226,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Command.Event && Object.values(packData.Command.Event).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Events: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -234,7 +234,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Command.Upgrade && Object.values(packData.Command.Upgrade).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Upgrades: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -245,7 +245,7 @@ function DeckSelector({packData}) {
                             <th>Cunning</th>
                             <td>
                                 {packData.Cunning.Leader && Object.values(packData.Cunning.Leader).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Leader: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -253,7 +253,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Cunning.Base && Object.values(packData.Cunning.Base).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Base: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -261,7 +261,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Cunning.Unit && Object.values(packData.Cunning.Unit).filter(unit => unit.cardData.Arenas === "Ground").map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, GroundUnits: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                             {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -269,7 +269,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Cunning.Unit && Object.values(packData.Cunning.Unit).filter(unit => unit.cardData.Arenas === "Space").map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, SpaceUnits: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -277,7 +277,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Cunning.Event && Object.values(packData.Cunning.Event).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Events: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -285,7 +285,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Cunning.Upgrade && Object.values(packData.Cunning.Upgrade).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Upgrades: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -296,7 +296,7 @@ function DeckSelector({packData}) {
                             <th>Vigilance</th>
                             <td>
                                 {packData.Vigilance.Leader && Object.values(packData.Vigilance.Leader).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Leader: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -304,7 +304,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Vigilance.Base && Object.values(packData.Vigilance.Base).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number} onClick={() => setSelectedCards({...selectedCards, Base: cardData})}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -312,7 +312,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Vigilance.Unit && Object.values(packData.Vigilance.Unit).filter(unit => unit.cardData.Arenas[0] === "Ground").map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -320,7 +320,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Vigilance.Unit && Object.values(packData.Vigilance.Unit).filter(unit => unit.cardData.Arenas[0] === "Space").map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -328,7 +328,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Vigilance.Event && Object.values(packData.Vigilance.Event).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -336,7 +336,7 @@ function DeckSelector({packData}) {
                             </td>
                             <td>
                                 {packData.Vigilance.Upgrade && Object.values(packData.Vigilance.Upgrade).map(({cardData, count}) => (
-                                    <li className="onHover" key={cardData.Number}>
+                                    <li className="onHover" key={cardData.Number} onClick={() => handleCardClick(cardData, count)}>
                                         {cardData.Name} x{count}
                                         <img className="onHoverImage" src={cardData.FrontArt} width={300} />
                                     </li>
@@ -348,6 +348,37 @@ function DeckSelector({packData}) {
             </div>
             <div>
                 <h2>Cards</h2>
+                {selectedCards.Leader.Name && <h3>Leader: {selectedCards.Leader.Name}</h3>}
+                <h3>Ground Units:</h3>
+                <ul>
+                    {Object.values(selectedCards.GroundUnits).map((cardData, count)=> 
+                        <li>{cardData.Name}, x{count}</li>
+                    )}
+                </ul>
+                <h3>Space Units:</h3>
+                <ul>
+                    {Object.values(selectedCards.SpaceUnits).map((cardData, count)=> 
+                        <li>{cardData.Name}, x{count}</li>
+                    )}
+                </ul>
+                <h3>Space Units:</h3>
+                <ul>
+                    {Object.values(selectedCards.SpaceUnits).map((cardData, count)=> 
+                        <li>{cardData.Name}, x{count}</li>
+                    )}
+                </ul>
+                <h3>Events:</h3>
+                <ul>
+                    {Object.values(selectedCards.Events).map((cardData, count)=> 
+                        <li>{cardData.Name}, x{count}</li>
+                    )}
+                </ul>
+                <h3>Upgrades:</h3>
+                <ul>
+                    {Object.values(selectedCards.Upgrades).map((cardData, count)=> 
+                        <li>{cardData.Name}, x{count}</li>
+                    )}
+                </ul>
             </div>
 
         </div>
